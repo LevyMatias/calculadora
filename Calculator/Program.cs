@@ -8,11 +8,11 @@ namespace Calculator
         {
             int n1 = 0; int n2 = 0;
 
-            Console.WriteLine("Console Calculator in C#\r");
+            Console.WriteLine("Calculadora em C#");
             Console.WriteLine("------------------------\n");
 
             Console.WriteLine("Type a number, and then press Enter");
-            n1 = Convert.ToInt32(Console.ReadLine());
+            n1 = Convert.ToInt32(Console.ReadLine()); // Método que converte string para integer
 
             Console.WriteLine("Type a number, and then press Enter");
             n2 = Convert.ToInt32(Console.ReadLine());
